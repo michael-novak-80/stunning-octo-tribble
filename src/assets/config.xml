@@ -1,0 +1,52 @@
+<content>
+	<config>
+		<item id="isTestDrive">0</item>
+		<item id="size" width="1920" height="1080" />
+		<item id="appBorder">10 10</item>
+		<item id="name">Kurz</item>
+		<item id="firstSlide" slideId=""> </item>
+		<item id="exclude">key,profile</item>
+		<item id="continueButtonMaxY">960</item>
+		<item id="slideTransition">swipe</item>
+		<item id="enableScormOutput">1</item>
+		<item id="chapterName" style="chapter" animFrom="down" />
+		<!--<item id="chaptersPath" mainView="MainSelectionView" variant="origin">
+		&lt;!&ndash;<item id="chaptersPath" mainView="MainSelectionView" variant="teor">&ndash;&gt;
+		&lt;!&ndash;<item id="chaptersPath" variant="CP">&ndash;&gt;
+		&lt;!&ndash;<item id="chaptersPath" variant="PMV">&ndash;&gt;
+		&lt;!&ndash;<item id="chaptersPath" variant="BP">&ndash;&gt;
+		&lt;!&ndash;<item id="chaptersPath" variant="PPZ">&ndash;&gt;
+		&lt;!&ndash;<item id="chaptersPath" variant="UP">&ndash;&gt;
+		&lt;!&ndash;<item id="chaptersPath"  variant="CPBP">&ndash;&gt;
+			<item id="origin" >5,1,2,3,6,8,9,10,11,7</item>
+			<item id="teor" >5,1,2,3,7</item>
+			<item id="CP" mainView="MainSelectionViewCP">5,1,2,3,6,7</item>
+			<item id="PMV" mainView="MainSelectionViewPMV">5,1,2,3,8,7</item>
+			<item id="BP" mainView="MainSelectionViewBP">5,1,2,3,9,7</item>
+			<item id="PPZ" mainView="MainSelectionViewPPZ" >5,1,2,3,10,7</item>
+			<item id="UP" mainView="MainSelectionViewUP">5,1,2,3,11,7</item>
+			<item id="CPBP" mainView="MainSelectionViewCP_BP">5,1,2,3,6,9,7</item>
+		</item>-->
+		<item id="lang">sk</item>
+
+	</config>
+
+	<design>
+		<file url="designLib.js" namespace="nsDesign" stage="stageDesign"></file>
+		<file url="uiDesign.js" namespace="nsUI" stage="stageUI"></file>
+		<file url="Icons.js" namespace="nsIcons" stage="stageIcons"></file>
+		<file url="avatar.js" namespace="nsAvatar" stage="stageAvatar"></file>
+	<!--	<file url="ezmluva.js" namespace="nsEzmluva" stage="ezmluva"></file>-->
+	</design>
+
+	<course>
+		<file url="slides.xml"></file>
+	</course>
+
+	<ui>
+		<item id="chapterButton">
+			<anim event="overOut" prop="scale" from="1" to="1.05" pivot="1 1"></anim>
+		</item>
+	</ui>
+
+</content>

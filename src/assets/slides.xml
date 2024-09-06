@@ -1,0 +1,584 @@
+<content name="" >
+
+	<defaults>
+		<chapter locked="1" mapIconSize="100 70"/>
+		<slide renderArea="renderArea" template="GeneratedSlide" ></slide>
+		<!-- textSize="800" je zbytocne textPos="0 0" ma byt na 0 0 iconSize je zbytocne -->
+		<field type="text" textAlign="left"></field>
+		<field type="icon|excercise" textPos="70 10"  iconPos="-16 0" iconSize="30" iconDesign="Icons" style="sub"></field>
+		<field type="pageDetail" textPos="70 30" iconPos="-10 0" iconSize="30"></field>
+		<field type="bullet|list|sList" allowSelection="0" textPos="20 -5"  iconPos="0 5" iconSize="30" textAlign="left" headerStyle="sub"></field>
+		<field type="multichoice" icon="chb" evaluationPos="0 400" offset="" allowEvaluation="1" allowSelection="1" allowMultiSelection="1" instantFeedback="0" textPos="50 -10" iconPos="20 8" iconSize="25" avatarPos="-2 -5"  avatarScale="1" avatarOnSlide="1" textSize="950" avatarPosTarget="avatarPos2"/>
+		<field type="singlechoice" shuffle="1" avatarOnSlide="1" icon="chb" allowEvaluation="0" allowSelection="1" instantFeedback="1" offset="100 50" textPos="50 -10" iconPos="20 8" iconSize="25" avatarScale="1" avatarPos="0 -5" avatarPosTarget="avatarPosSch"  textSize="800" textAlign="left"/>
+		<field type="wordsMatch" feedbackTarget="goodBadIcon|bg" solveMeSymbol="help" solveMeAmount="2" ></field>
+		<field type="dragAndDrop" feedbackTarget="goodBadIcon|bg" avatarPos="1100 550" solveMeSymbol="help" solveMeAmount="3" solveMePosTarget="solve"></field>
+		<field type="title" textSize="1500" posTarget="rAnadpis" align="0 0" textAlign="left" ></field>
+		<field type="expandImage" showTooltip="0"></field>
+		<field type='sArrowImage' controlsPos='1920 300' enableControls='0'/>
+		<field type="barChart" useLogScale="1" logBase="2"  ></field>
+		<!--<field type="story" avatarPos="-220 520" avatarScale="0.8"></field>-->
+	</defaults>
+
+	<format>
+		<style>
+			<item id="default" fontFamily="Source Sans Pro,Arial,serif" fontSize="28px" lineHeight="35" fill="text" align="center" wordWrap="1" wordWrapWidth="800"></item>
+			<item id="s" fontSize="20px" ></item>
+			<item id="mensi" fontSize="23px" ></item>
+			<item id="m" fontSize="30px" ></item>
+			<item id="b" fontStyle="bold"></item>
+			<item id="bold" fontStyle="bold"></item>
+			<item id="chapter" fontSize="20px"></item>
+			<item id="rd" fontStyle="bold" fill="important1"></item>
+			<item id="i" fontStyle="italic"></item>
+			<item id="u" fontStyle="underline"></item>
+			<item id="ig" fontStyle="italic" fill="green"></item>
+			<item id="e" fill="important2" ></item>
+
+			<item id="akcia" fill="akcia"  fontStyle="bold"></item>
+			<item id="inst" fill="akcia"  fontStyle="bold"></item>
+
+
+			<item id="sub" fill="important2" fontStyle="bold"></item>
+			<item id="l" fill="number"></item>
+			<item id="eb" fill="important1" fontStyle="bold"></item>
+			<item id="n" fill="number" fontStyle="bold"></item>
+			<!--<item id="m" fill="money" fontStyle="bold"></item>-->
+			<item id="title" fill="title" fontSize="40px" fontStyle="bold" align="1 0"></item>
+			<item id="title2" fill="title" fontSize="38px" fontStyle="bold" align="1 0"></item>
+
+			<item id="title3" fill="title" fontSize="30px" fontWeight="bold"></item>
+			<item id="title4" fill="red" fontSize="30px" fontWeight="bold"></item>
+			<item id="title5" fill="green" fontSize="32px" fontStyle="bold" ></item>
+
+			<item id="titleRed" fill="red" fontSize="40px" fontStyle="bold"  ></item>
+			<item id="title2Gr" fill="green" fontSize="32px" fontStyle="bold" ></item>
+			<item id="qm" fontStyle="italic" fill="green"></item>
+
+
+
+
+
+			<item id="invertTitle" fill="invertTitle" fontStyle="bold"></item>
+			<item id="wordsMatch" fill="white"></item>
+			<item id="dadItem" fill="white"></item>
+			<item id="bullet" fontStyle="bold" fill="bullet"></item>
+			<item id="bullet1" fontStyle="bold" fill="bullet"></item>
+			<item id="red" fill="red"></item>
+			<item id="blue" fill="blue"></item>
+			<item id="green" fill="green"></item>
+			<item id="white" fill="white"></item>
+			<item id="orange" fill="orange"></item>
+			<item id="yellow" fill="yellow"></item>
+			<item id="black" fill="black"></item>
+			<item id="grey" fill="grey"></item>
+			<item id="gold" fill="important1"></item>
+
+			<item id="redBold" fill="red" fontStyle="bold"></item>
+			<item id="blueBold" fill="blue" fontStyle="bold"></item>
+			<item id="wb" fill="white" fontSize="38"></item>
+
+
+			<item id="redb" fill="red" fontSize="30px"></item>
+			<item id="blueb" fill="blue" fontSize="30px"></item>
+			<item id="greenb" fill="green" fontSize="30px"></item>
+			<item id="orangeb" fill="orange" fontSize="30px"></item>
+			<item id="yellowb" fill="yellow" fontSize="30px"></item>
+
+			<item id="redM" fill="red" fontSize="28px" fontWeight="bold"></item>
+
+
+
+
+			<item id="bub" fill="blue"></item>
+			<item id="namietka" fill="blue" fontSize="38"></item>
+
+
+
+			<item id="pid" fill="color1" fontStyle="bold"></item>
+			<item id="val" fill="color1" fontStyle="bold"></item>
+
+
+
+			<item id="max" fill="important1" fontSize="32"></item>
+
+			<item id="maxW" fill="white" fontSize="32"></item>
+			<item id="maxWb" fill="white" fontStyle="bold" fontSize="32"></item>
+			<item id="maxR" fill="red2" fontSize="32"></item>
+
+			<item id="note" fill="bordo" fontSize="20" fontStyle="italic"></item>
+			<item id="note2" fill="gray" fontSize="20" ></item>
+
+			<item id="pieLabel" fontSize="20px" fill="white" fontStyle="bold" ></item>
+
+
+			<item id="frameGreen"  fill="white" ></item>
+
+
+
+
+		</style>
+		<!-- Farby -->
+		<color>
+			<item id="text">313A45</item>
+			<item id="title">FFFFFF</item>
+			<item id="color1">DB4030</item>
+			<item id="color2">04959A</item>
+			<item id="important1">083676</item>
+			<item id="important2">#727D51</item>
+			<item id="akcia">#003781</item>
+			<item id="color3">2AE57B</item>
+			<item id="invertTitle">083676</item>
+			<item id="number">#A54848</item>
+			<item id="money">DB4030</item>
+			<item id="bullet">083676</item>
+			<item id="bulletTint">fff600</item>
+			<item id="red">#941910</item>
+			<item id="green">#727D51</item>
+			<item id="blue">02497D</item>
+			<item id="orange">FF7900</item>
+			<item id="black">000000</item>
+			<item id="white">FFFFFF</item>
+			<item id="grey">#606060</item>
+			<item id="yellow">FFBC00</item>
+
+
+			<item id="red2">EE5B5C</item>
+			<item id="lod">003368</item>
+			<item id="bordo">#94170F</item>
+			<item id="lightGreen">#B9BE7C</item>
+
+
+
+
+
+		</color>
+		<!--	replace	-->
+		<replace>
+			<item id="eur">Eur</item>
+			<item id="EURO">Eur</item>
+		</replace>
+	</format>
+
+	<resources>
+
+		<field rid="office" type="group" symbol="kancBub" >
+			<field type="image" target="contentBox" frame="%f:0%"></field>
+			<field type="group" target="contentBox">
+				<field type="group" align="0 1">%text%</field>
+				<anim event="load" delay="0.2">
+					<anim prop="x" from="400" to="20"/>
+					<anim prop="alpha" from="0" to="1"/>
+				</anim>
+			</field>
+			<field type="image" frame="%icon:pc%" target="iconBox">
+				<anim event="load" delay="0.2">
+					<anim prop="x" from="-=100" to="+=100"/>
+					<anim prop="alpha" from="0" to="1"/>
+				</anim>
+			</field>
+		</field>
+
+		<field rid="spotrebax" type="group" symbol="longBubbleWrapper">
+			<field type="image" frame="%icon:hot%" target="iconBox">
+				<anim event="load" delay="0.2">
+					<anim prop="x" from="-=100" to="+=100"/>
+					<anim prop="alpha" from="0" to="1"/>
+				</anim>
+			</field>
+			<field type="bubble3" symbol="longBubble" posTarget="contentBox" showTip="0" minHeight="212" width="1260">
+				<param>%text%</param>
+				<!--<anim event="load" delay="0.2">
+					<anim prop="alpha" from="0" to="1"/>
+				</anim>-->
+			</field>
+		</field>
+
+		<field rid="voda" type="group" symbol="voda">
+			<field type="image" target="contentBox" frame="%f:0%"></field>
+			<field type="group" target="contentBox">
+				<field type="text" textAlign="center" align="1 0">%text%</field>
+				<anim event="load" delay="0.2">
+					<anim prop="y" from="400" to="20"/>
+					<anim prop="alpha" from="0" to="1"/>
+				</anim>
+			</field>
+			<field type="image" frame="%icon:voda%" target="iconBox">
+				<anim event="load" delay="0.2">
+					<anim prop="y" from="-=100" to="+=100"/>
+					<anim prop="alpha" from="0" to="1"/>
+				</anim>
+			</field>
+		</field>
+
+		<field rid="blueBub" type="group" symbol="blueBub">
+			<field type="image" target="contentBox" frame="%f:0%"></field>
+			<field type="group" target="contentBox">
+				<field type="text" textAlign="center" align="1 0">%text%</field>
+				<anim event="load" delay="0.2">
+					<anim prop="y" from="400" to="20"/>
+					<anim prop="alpha" from="0" to="1"/>
+				</anim>
+			</field>
+			<field type="image" frame="%icon:earth%" target="iconBox">
+				<anim event="load" delay="0.2">
+					<anim prop="y" from="-=100" to="+=100"/>
+					<anim prop="alpha" from="0" to="1"/>
+				</anim>
+			</field>
+		</field>
+
+
+		<field rid="postup" type="group">
+			<field type="image" symbol="postup" frame="%obr%" id="step"></field>
+			<field type="group" sizeTarget="step.renderArea">%text%</field>
+		</field>
+
+
+
+
+		<field rid="dulezite" type="group" offset="50 -20">
+				<field type="text" style="maxR" offset="-10 50" sfl="1">DŮLEŽITÉ:</field>
+				<field type="bubble3" symbol="bubble" frame="dulezite" showTip="0" width="1300" rwp="1" >
+					<field type="text" offset="20">%text%</field>
+				</field>
+		</field>
+
+		<field rid="zapamatuj" type="group" offset="50 -20">
+				<field type="text" sfl="1" offset="-10 50" style="maxR" >ZAPAMATUJTE SI:</field>
+				<field type="bubble3" symbol="bubble" frame="zajR" showTip="0" width="1300" rwp="1" >
+					<field type="text" offset="20" style="maxW">%text%</field>
+				</field>
+		</field>
+
+		<!--<field rid="stepBar" id="stepBar" type='stepBar' selectorSymbol="StepSelector" stepSymbol="StepPoint" pathSymbol="StepPath" offset="-100 500" sfl="1" height="30"></field>-->
+
+		<field rid="stepBar" id="stepBar" type='stepBar' selectorSymbol="StepSelectorBiely" stepSymbol="StepPointBiely" pathSymbol="StepPathBielyVert" x="50" y="500" height="50" vertical="1"></field>
+
+		<field rid="stepBar2" id="stepBar2" type='stepBar' selectorSymbol="StepSelector5" stepSymbol="StepPoint6" pathSymbol="StepPath6" sfl="1" height="30"></field>
+
+	<field rid="stepBarRed" id="stepBarRed" type='stepBar' selectorSymbol="StepSelectorRed" stepSymbol="StepPointRed" pathSymbol="StepPathRed" sfl="1" height="30" selectorLayer="front"></field>
+
+	<field rid="stepBarRed2" id="stepBarRed" type='stepBar' selectorSymbol="StepSelectorRed" stepSymbol="StepPointRed" pathSymbol="StepPathRed2" sfl="1" height="30" width="780" selectorLayer="front"></field>
+
+		<!--<field rid="stepBarJahoda" id="stepBarJahoda" type='stepBar' selectorSymbol="StepSelector5" stepSymbol="StepPointJahoda" pathSymbol="StepPathJahoda" sfl="1" height="30"></field>-->
+
+		<field rid="stepBarMark" id="stepBar" type='stepBar'  stepSymbolx="StepPointCoSpada" stepSymbol="StepPointMark" pathSymbol="StepPath5" sfl="1" height="30"></field>
+
+
+
+		<field rid="slovnik" type='slideDetail'  slideId='slovnikDetail' detailScale="0.9" symbol="slovnik" icon="1" closeIcon="2"
+		sfl="1" x="1685" y="40" rwp="1"></field>
+
+<field rid="bubRed" type="bubble3" symbol="bubbleRed" showTip="0">
+	<field type="text" style="white">%text%</field>
+</field>
+
+
+
+
+
+		<field rid="df_menu" type="menu" id="df_" targetSlidePrefix="df_${s}_1" itemSelectFrame="vysun"
+			   symbol="DfMenu" sfl="1" rwp="1"  erase="0" enableButtons="1"
+			   enableLocks="1" x="0"></field>
+
+
+
+		<field rid="dp_menu" type="menu" id="dp_" targetSlidePrefix="dp_${s}_1" itemSelectFrame="vysun"
+			   symbol="dPmenu" sfl="1" rwp="1"  erase="0" enableButtons="1"
+			   enableLocks="1" x="0"></field>
+
+
+
+
+
+		<field rid="popis1" type="text" sfl="1" style="e" textAlign="center">Nasporené po odpočítaní nákladov[br][n]v Eurách[n]</field>
+		<field rid="popis2" type="text" sfl="1" style="e" textAlign="center">Celkové náklady[br][n]v Eurách[n]</field>
+		<field rid="popis3" type="text" sfl="1" style="e" textAlign="center">Ročný výnos po odpočítaní nákladov[br][n]v percentách[n]</field>
+		<field rid="legenda" type="image" symbol="legenda" x="480" y="961" frame="" sfl="1"></field>
+		<field rid="scenar" type="text" style="title2" sfl="1" offset="-20" >Koľko by ste mohli mať nasporené – [red]%text%[red]</field>
+
+		<field rid="sideBox" type="group"   >
+			<field type="group" symbol="sideBox" y="-238" x="1650" alpha="0">
+				<field type="text" style="wb">%text%</field>
+				<anim event="load" delay="0.4">
+					<anim prop="x" to="1345"></anim>
+					<anim prop="alpha" to="1"></anim>
+				</anim>
+			</field>
+		</field>
+
+		<field rid="odporucania" type="group" symbol="odporucania" offset="50 425">
+			<field type="text" style="frameGreen">Odporúčania pre teba:</field>
+			<anim event="load" delay="0.2">
+				<anim prop="scale" pivot="1 1" from="1.5" to="1" ease="bounce"></anim>
+				<anim prop="alpha" from="0" to="1"></anim>
+			</anim>
+		</field>
+		<field rid="odpor_blank" type="group" symbol="odporucania" offset="50 425">
+			<field type="text" style="frameGreen">%text%</field>
+			<anim event="load" delay="0.2">
+				<anim prop="scale" pivot="1 1" from="1.5" to="1" ease="bounce"></anim>
+				<anim prop="alpha" from="0" to="1"></anim>
+			</anim>
+		</field>
+
+		<field rid="info" type="bubble3" symbol="bubInf" sfl="1" x="1500"  width="476" alpha="0">
+			<field type="text" style="white">%text%</field>
+			<anim event="load" delay="0.4">
+				<anim prop="x" to="1045"></anim>
+				<anim prop="alpha" to="1"></anim>
+			</anim>
+		</field>
+		<field rid="info2" type="bubble3" symbol="bubInf" sfl="1" x="1500"  width="476" alpha="0">
+			<field type="text" style="white">%text%</field>
+			<anim event="load" delay="0.4">
+				<anim prop="x" to="745"></anim>
+				<anim prop="alpha" to="1"></anim>
+			</anim>
+		</field>
+
+		<field rid="sideBoxUni" type="group" symbol="%s%" alpha="0" >
+				<field type="text" >%text%</field>
+				<anim event="load" delay="0.4">
+					<anim prop="x" to="1045"></anim>
+					<anim prop="alpha" to="1"></anim>
+				</anim>
+
+		</field>
+
+
+
+		<field rid="kruhy" type="image" target="item%item%" id="k%item%">
+			<anim event="load" time="0">
+				<anim prop="saturation" to="0"></anim>
+				<!--<anim prop="scale" to="0.9" ></anim>-->
+			</anim>
+
+			<!--<action event="over" action="scale" from="1" to="1.5"></action>
+			<action event="out"></action>-->
+			<anim event="over" prop="scale" from="1" to="1.05"></anim>
+			<anim event="out" prop="scale" to="1"></anim>
+
+			<anim event="click" time="2">
+				<anim prop="saturation" from="0" to="1" ></anim>
+				<anim prop="scale" from="1" to="1.05" ></anim>
+				<!--<anim prop="show"  show="1" actionTarget="titem%item%" ></anim>-->
+			</anim>
+			<action event="click" action="setContent" actionTarget="texty" contentId="%item%"></action>
+			<action event="click" action="done" actionTarget="hs" index="%item%"></action>
+		</field>
+
+		<field rid="hotspot" type="hotspot"></field>
+
+		<!--	<field rid="nazov" type="group" symbol="inIcons" frame="%ic%">
+				<field type="text" align="0 1" style="title6">%text%</field>
+			</field>
+
+			<field rid="nazov2" type="group" symbol="inIcons" frame="%ic%">
+				<field type="text" align="0 1" style="title6" textAlign="center">%text%</field>
+			</field>-->
+
+		<field rid="nazov" type="text" style="e">%text%</field>
+		<field rid="zoz" type="list" hasHeader="0">%text%</field>
+		<field rid="zozH" type="list" hasHeader="1" >%text%</field>
+
+		<field rid="kroky" type="group" symbol="kroky_csl" frame="%f%"  sfl="1" sizeTarget="rA2" >
+			<field type="text" style="dadItem">%text%</field>
+		</field>
+
+		<field rid="prikl" type="text" style="ig">%text%</field>
+
+		<field rid="badge2" type="image" symbol="%s%" posTarget="frame.%s%" >
+			<anim event="load" delay="%d%">
+				<anim prop="scale" pivot="1 1" from="1.5" to="1" ease="bounce"></anim>
+				<anim prop="alpha" from="0" to="1"></anim>
+			</anim>
+		</field>
+
+		<field rid="sideBox2" type="group"   >
+			<field type="group" symbol="plagaty3" frame="%f%" y="-220" x="1650" alpha="0">
+				<field type="text" style="wb">%text%</field>
+				<anim event="load" delay="%d%">
+					<anim prop="x" to="745"></anim>
+					<anim prop="alpha" to="1"></anim>
+				</anim>
+			</field>
+		</field>
+
+
+	</resources>
+	<chapter id='1' title='' time="5min" mapIcon="" slide.template="slideScreenSmall:0" >
+
+
+		<slide id='fotka_*ri*' title='' overlap="fotka_" renderAsDialog="0" repeater="1:9"  template="slideScreenSmall:0">
+			<field type="title" sizeTarget="rAnadpis" rwp="1" >Zmena profilovej fotografie</field>
+
+
+			<field type="text" id="text" sizeTarget="rAtext" align="0 1" >%Svoju profilovú fotografiu môžete pridať alebo zmeniť v Microsoft 365 z Microsoft365.com alebo pri používaní Microsoft 365 aplikácií v počítači alebo prehliadači v telefóne. Vaša fotografia sa zobrazí všade v Microsoft 365, kde sa nachádza kruhový priestor na profilovú fotografiu.
+				Na table [akcia]Moje kontá[akcia] vyberte kruh, ktorý zobrazuje vaše iniciály alebo ikonu osoby.
+				V zobrazenom kontextovom okne vyberte svoju fotografiu.
+				V zobrazenom kontextovom okne vyberte svoju fotografiu.
+				V zobrazenom kontextovom okne vyberte svoju fotografiu.
+				Fotografiu môžete priblížiť, oddialiť alebo potiahnutím myši vycentrovať. Po stlačení [akcia]Použiť[akcia] sa zobrazí kontrolná obrazovka
+				Po stlačení [akcia]Hotovo[akcia] je fotografia nastavená
+				Po stlačení [akcia]Hotovo[akcia] je fotografia nastavená
+				Pokračujte ďalej v kurze%</field>
+			<field type="story" id="image" step="*ri*" symbol="fotka" pointArrow="PointArrow" frame="0" targetSlidePrefix="fotka_" height="322" offset="" swap="1" > </field>
+			<field rid="stepBar" targetSlidePrefix="fotka_" step="*ri*" index="*ri*" numSteps="*max_ri*" ></field>
+		</slide>
+		<slide id="testf" title="" renderAsDialog="0" template="testScreen:0" >
+			<field type="group" id="texty" setContentId="1" sizeTarget="rAtext" align="0 1">
+				<field type="list" hasHeader="1"  contentId="1" style="inst">Vyskúšajme teraz splniť jednoduchú úlohu.
+					Pokúste sa sami nastaviť fotografiu.</field>
+				<field type="text"  contentId="2" style="inst">Výborná práca! S touto úlohou ste si poradili výborne. Môžete pokračovať ďalej.</field>
+			</field>
+			<field type="story" id="image" step="1" symbol="fotka_test" pointArrow="PointArrow" frame="0" targetSlidePrefix="fotka_" height="322" offset="" swap="1" testMode="1"  attempts="3" enableZoom="0" avatarPos="-200 0" avatarScale="0.8">
+				<action event="done" action="setContent" contentId="2" actionTarget="texty"></action>
+			</field>
+
+		</slide>
+
+
+	</chapter>
+	<chapter id='2' title='' time="10min" mapIcon="" >
+
+		<slide id='ne_*ri*' title='' overlap="ne_" renderAsDialog="0" repeater="1:15"  template="slideScreenSmall:1">
+			<field type="title" sizeTarget="rAnadpis" rwp="1" >%Spustenie aplikácie Outlook
+				Zobrazenie správy
+				Zobrazenie správy
+				Vytvorenie nového e-mailu
+				Vytvorenie nového e-mailu
+				Vytvorenie nového e-mailu - pripojenie prílohy
+				Vytvorenie nového e-mailu - pripojenie prílohy
+				Vytvorenie nového e-mailu - pripojenie prílohy
+				[br][br][br]Formátovanie textu
+				Odoslanie e-mailu
+				Odoslaná pošta
+				Odpoveď na e-mail
+				Odpoveď na e-mail
+				Preposlatie e-mailu
+				%</field>
+
+
+			<field type="text" id="text" sizeTarget="rAtext" align="0 1">%Otvorte aplikáciu Outlook v rámci Microsoft 365
+				Správu zobrazíte kliknutím na položku
+				Kliknite na tlačidlo [akcia]Nová pošta[akcia].
+				Vyplňte pole [akcia]Komu[akcia] s e-mailovou adresou príjemcu.[br]Do poľa [akcia]Predmet[akcia] zadajte predmet e-mailu.[br]Napíšte text e-mailu v textovom poli pre telo e-mailu.
+				V záložke [akcia]Správa[akcia] kliknite na ikonu sponky a vyberte z ponúkaných možností (napr. Prehľadávať tento počítač)
+				V záložke [akcia]Správa[akcia] kliknite na ikonu sponky a vyberte z ponúkaných možností (napr. Prehľadávať tento počítač)
+				Vyberte súbor, ktorý chcete pripojiť, a kliknite na tlačidlo [akcia]Otvoriť[akcia].
+				Príloha sa automaticky priloží k e-mailu.
+				Na formátovanie textu môžete použiť štandardné nástroje v hornej lište.[br]Vyberte text, ktorý chcete formátovať, a potom môžete meniť formát pomocou možností, ako sú [b]tučné[b], [i]kurzíva[i], [u]podčiarknutie[u], farby textu, veľkosť písma, pridanie odrážkového zoznamu atď.
+				Kliknite na tlačidlo [inst]Odoslať[inst]. [br]E-mail bude odoslaný a dorazí do doručenej pošty príjemcu.
+				Správa sa presunie do priečinku [inst]Odoslaná pošta[inst]
+				Umožňuje vám priamo odpovedať na prijatú správu[br]V odpovedi môžete napísať vlastný text alebo citovať časť pôvodnej správy, aby ste jasne vyjadrili vašu reakciu.
+				Umožňuje vám odpovedať na správu a zároveň zahrnúť všetkých príjemcov, ktorí boli zahrnutí v pôvodnej správe.
+				Umožňuje vám zaslať prijatú správu ďalej inému príjemcovi.
+				Pokračujte ďalej v kurze.%</field>
+			<field type="story" id="image" step="*ri*" symbol="novyEmail" pointArrow="PointArrow" frame="0" targetSlidePrefix="ne_" height="322" offset="" swap="1"></field>
+			<field rid="stepBar" targetSlidePrefix="ne_" step="*ri*" index="*ri*" numSteps="*max_ri*" ></field>
+		</slide>
+
+		<slide id="fwd" title="" renderAsDialog="0" template="testScreen:0" >
+			<field type="group" id="texty" setContentId="1" sizeTarget="rAtext" align="0 1">
+				<field type="list" hasHeader="1"  contentId="1" style="inst">Vyskúšajme teraz splniť jednoduchú úlohu.
+					Pokúste sa sami preposlať email.</field>
+				<field type="text"  contentId="2" style="inst">Výborná práca! S touto úlohou ste si poradili výborne. Môžete pokračovať ďalej.</field>
+			</field>
+			<field type="story" id="image" step="1" symbol="fwd" pointArrow="PointArrow" frame="0" targetSlidePrefix="fwd_" height="322" offset="" swap="1" testMode="1"  attempts="3" enableZoom="0" avatarPos="-200 0" avatarScale="0.8">
+				<action event="done" action="setContent" contentId="2" actionTarget="texty"></action>
+			</field>
+
+		</slide>
+	</chapter>
+	<chapter id='3' title='' time="10min" mapIcon="" slide.template="slideScreenSmall:0" >
+
+		<slide id='kalendar_*ri*' title='' overlap="kalendar_" renderAsDialog="0" repeater="1:13"  template="slideScreenSmall:2">
+			<field type="title" sizeTarget="rAnadpis" rwp="1" >%Zobrazenie kalendára
+Kalendár
+Vytvorenie novej udalosti
+Vytvorenie novej udalosti
+Vytvorenie novej udalosti
+Vytvorenie novej udalosti
+Vytvorenie novej udalosti
+Vytvorenie novej udalosti
+Vytvorenie novej udalosti
+				Kalendár
+				Kalendár%</field>
+
+
+
+
+			<field type="text" id="text" sizeTarget="rAtext" align="0 1">%Spustite aplikáciu [akcia]Kalendár[akcia]
+				V jednotlivých dňoch sú zobrazené aktuálne udalosti
+				Pre vytvorenie novej udalosti vyberte požadovaný deň v kalendári
+				Potvrďte stlačením [akcia]Nová udalosť[akcia]
+				V dialógovom okne vyplňte: [akcia]Názov stretnutia[akcia]
+				V dialógovom okne vyplňte: [akcia]emailové adresy účastníkov[akcia]
+				V dialógovom okne vyplňte: [akcia]emailové adresy účastníkov[akcia]. Ak už máte túto osobu v kontakte, Outlook môže automaticky navrhnúť adresu počas písania.
+				V dialógovom okne vyplňte: [akcia]dátum stretnutia[akcia]
+				Kliknutím a presunom okna môžete zmeniť čas stretnutia, natiahnutím okna jeho dĺžku
+				Potvrďte stlačením [akcia]Odoslať[akcia]
+				Stretuntie je zobrazené v kalendári v príslušnom dni
+				Po kliknutí na stretnutie sa zobrazí dialógové okno s ponukou [akcia]Pripojiť sa[akcia] na stretnutie a možnosťami [e]úpravy[e] parametrov stretnutia alebo [e]zrušenie[e] schôdze
+				Pokračujte ďalej v kurze
+				%</field>
+			<field type="story" id="image" step="*ri*" symbol="kalendar" pointArrow="PointArrow" frame="0" targetSlidePrefix="kalendar_" height="322" offset="" swap="1" ></field>
+			<field rid="stepBar" targetSlidePrefix="kalendar_" step="*ri*" index="*ri*" numSteps="*max_ri*" ></field>
+		</slide>
+
+		<slide id="ktest" title=""  renderAsDialog="0"  template="testScreen:2" >
+			<field type="group" id="texty" setContentId="1" sizeTarget="rAtext" >
+				<field type="list" hasHeader="1"  contentId="1" >Pokúste sa teraz vytvoriť si vlastné stretnutie.
+					Vôjdite do kalendára a vytvorte stretnutie s [inst]Andreou Garajovou[inst] na [n]6.5.2024 o 8:30[n] </field>
+				<field type="text"  contentId="2" style="inst">Výborná práca! S touto úlohou ste si poradili výborne. Môžete pokračovať ďalej.</field>
+			</field>
+
+			<field type="story" id="image" step="1" symbol="kalendar3" pointArrow="PointArrow" frame="0" targetSlidePrefix="ktest" height="322" offset="" swap="1"  testMode="1" allowedPaths="" attempts="3" enableZoom="0" avatarPos="-200 0" avatarScale="0.8">
+				<action event="done" action="setContent" contentId="2" actionTarget="texty"></action>
+			</field>
+		</slide>
+
+
+
+
+
+	</chapter>
+
+
+
+
+	<chapter id='slideDetails' hasToBeCompleted="0" skipFromNav="1">
+
+
+	</chapter>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</content>

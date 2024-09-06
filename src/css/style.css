@@ -1,0 +1,40 @@
+html {
+    min-height: 100%;
+    background: #646469;
+    background: -moz-radial-gradient(center, ellipse cover, #646469 0%, #00000a 98%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #646469), color-stop(98%, #00000a));
+    background: -webkit-radial-gradient(center, ellipse cover, #646469 0%, #00000a 98%);
+    background: -o-radial-gradient(center, ellipse cover, #646469 0%, #00000a 98%);
+    background: -ms-radial-gradient(center, ellipse cover, #646469 0%, #00000a 98%);
+    background: radial-gradient(ellipse at center, #646469 0%, #00000a 98%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$lightgrey', endColorstr='$darkgrey',GradientType=1 );
+    background-size: cover;
+}
+
+.dot {
+    z-index: -99;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-image: -webkit-repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) 2px, transparent 2px, transparent 2px, rgba(0, 0, 0, 0.3) 3px);
+    background-image: -moz-repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 1px, transparent 2px, transparent 2px, rgba(0, 0, 0, 0.3) 3px);
+    background-image: -o-repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 1px, transparent 2px, transparent 2px, rgba(0, 0, 0, 0.3) 3px);
+    background-image: repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 1px, transparent 2px, transparent 2px, rgba(0, 0, 0, 0.3) 3px);
+    -webkit-background-size: 4px 4px;
+    -moz-background-size: 4px 4px;
+    background-size: 4px 4px;
+}
+
+h2 {
+    background: rgba(50, 50, 50, 0.5);
+    padding: 20px;
+    color: #fff;
+    font-size: 2em;
+    margin: 90px auto 0;
+    width: 800px;
+    text-align: center;
+    box-shadow: inset 0px 0px 5px black;
+    border-radius: 10px;
+}

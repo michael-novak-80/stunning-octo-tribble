@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" identifier="MO3" version="1.2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+<metadata>
+<schema>ADL SCORM</schema>
+<schemaversion>1.2</schemaversion>
+<lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+<general>
+<title>
+<langstring xml:lang="x-none">MS Office 365</langstring>
+</title>
+<catalogentry>
+<catalog>Scorm course</catalog>
+<entry>
+<langstring xml:lang="x-none">MO3</langstring>
+</entry>
+</catalogentry>
+<description>
+<langstring xml:lang="x-none"></langstring>
+</description><keyword><langstring xml:lang="x-none"></langstring>
+</keyword>
+</general>
+<lifecycle>
+<version><langstring xml:lang="x-none"></langstring></version>
+<status><source><langstring xml:lang="x-none">LOMv1.0</langstring></source><value><langstring xml:lang="x-none">Final</langstring></value></status></lifecycle><metametadata><metadatascheme>ADL SCORM 1.2</metadatascheme></metametadata><technical><format>text/html</format><location>.</location></technical><educational><typicallearningtime><datetime>01:00:00</datetime></typicallearningtime></educational><rights><cost><source><langstring xml:lang="x-none">LOMv1.0</langstring></source><value><langstring xml:lang="x-none">no</langstring></value></cost><copyrightandotherrestrictions><source><langstring xml:lang="x-none">LOMv1.0</langstring></source><value><langstring xml:lang="x-none">no</langstring></value></copyrightandotherrestrictions></rights><classification><purpose><source><langstring xml:lang="x-none">LOMv1.0</langstring></source><value><langstring xml:lang="x-none">Idea</langstring></value></purpose><description><langstring xml:lang="x-none"></langstring></description><keyword><langstring xml:lang="x-none">Adobe Captivate</langstring><langstring xml:lang="x-none"></langstring></keyword></classification></lom></metadata><organizations default="ORG"><organization identifier="ORG">
+<title>MS Office 365</title>
+<item identifier="SCO_ID1" isvisible="true" identifierref="SCO_ID1_RES">
+<title>MS Office 365</title>
+<adlcp:maxtimeallowed/>
+<adlcp:datafromlms/>
+<adlcp:masteryscore>0</adlcp:masteryscore>
+<adlcp:timelimitaction>exit,message</adlcp:timelimitaction>
+</item>
+
+</organization></organizations>
+
+<resources>
+
+<resource href="index.html" identifier="SCO_ID1_RES" type="webcontent" adlcp:scormtype="sco">
+	<file href="assets\.idea\$CACHE_FILE$"/><file href="assets\.idea\.name"/><file href="assets\.idea\assets.iml"/><file href="assets\.idea\inspectionProfiles\Project_Default.xml"/><file href="assets\.idea\modules.xml"/><file href="assets\.idea\workspace.xml"/><file href="assets\app-bg.jpg"/><file href="assets\avatar\stageAvatar.shapes.txt"/><file href="assets\avatar.js"/><file href="assets\config.xml"/><file href="assets\designLib\00novyEmail_step0_novyEmail.png"/><file href="assets\designLib\00_kalendar_step0.png"/><file href="assets\designLib\01novyEmail_step1_novyEmail.png"/><file href="assets\designLib\01_kalendar_step1.png"/><file href="assets\designLib\02novyEmail_step2_novyEmail.png"/><file href="assets\designLib\04novyEmail_step4_novyEmail.png"/><file href="assets\designLib\06novyEmail_step6_novyEmail.png"/><file href="assets\designLib\06novyEmail_step6_novyEmail1.png"/><file href="assets\designLib\06_kalendar_step6.png"/><file href="assets\designLib\07novyEmail_step7_novyEmail.png"/><file href="assets\designLib\08novyEmail_step8_novyEmail.png"/><file href="assets\designLib\08_kalendar_step8.png"/><file href="assets\designLib\08_kalendar_stepUpravMTG.png"/><file href="assets\designLib\08_kalendar_stepUpravMTG2.png"/><file href="assets\designLib\11_kalendar_step11.png"/><file href="assets\designLib\12novyEmail_step12.png"/><file href="assets\designLib\13_kalendar_step13.png"/><file href="assets\designLib\Bitmap 163.png"/><file href="assets\designLib\Bitmap 164.png"/><file href="assets\designLib\Bitmap 175.png"/><file href="assets\designLib\fwd_step0.png"/><file href="assets\designLib\fwd_step1.png"/><file href="assets\designLib\fwd_step2.png"/><file href="assets\designLib\fwd_step3.png"/><file href="assets\designLib\fwd_step4.png"/><file href="assets\designLib\profilovka_step0.png"/><file href="assets\designLib\profilovka_step1.png"/><file href="assets\designLib\profilovka_step2.png"/><file href="assets\designLib\profilovka_step3.png"/><file href="assets\designLib\profilovka_step3a.png"/><file href="assets\designLib\profilovka_step4.png"/><file href="assets\designLib\profilovka_step5A.png"/><file href="assets\designLib\profilovka_step5B.png"/><file href="assets\designLib\stageDesign.shapes.txt"/><file href="assets\designLib\stageDesign_atlas_1.json"/><file href="assets\designLib\stageDesign_atlas_1.png"/><file href="assets\designLib\stageDesign_atlas_2.json"/><file href="assets\designLib\stageDesign_atlas_2.png"/><file href="assets\designLib\stageDesign_atlas_3.json"/><file href="assets\designLib\stageDesign_atlas_3.png"/><file href="assets\designLib\stageDesign_atlas_4.json"/><file href="assets\designLib\stageDesign_atlas_4.png"/><file href="assets\designLib\step0.png"/><file href="assets\designLib\step0x.png"/><file href="assets\designLib\step1.png"/><file href="assets\designLib\step2.png"/><file href="assets\designLib\step3.png"/><file href="assets\designLib\step4.png"/><file href="assets\designLib\step5.png"/><file href="assets\designLib\step6.png"/><file href="assets\designLib\step7.png"/><file href="assets\designLib.js"/><file href="assets\ezmluva.js"/><file href="assets\icons\stageIcons.shapes.txt"/><file href="assets\icons\stageIcons_atlas_1.json"/><file href="assets\icons\stageIcons_atlas_1.png"/><file href="assets\Icons.js"/><file href="assets\slides.xml"/><file href="assets\ui\stageUI.shapes.txt"/><file href="assets\ui\stageUI_atlas_1.json"/><file href="assets\ui\stageUI_atlas_1.png"/><file href="assets\ui\stageUI_atlas_2.json"/><file href="assets\ui\stageUI_atlas_2.png"/><file href="assets\ui\stageUI_atlas_3.json"/><file href="assets\ui\stageUI_atlas_3.png"/><file href="assets\uiDesign.js"/><file href="css\style.css"/><file href="index.html"/><file href="js\enigma_2_10_0.js"/>
+</resource>
+
+</resources>
+</manifest>
